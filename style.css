@@ -51,6 +51,14 @@ header nav a {
     font-size: 2rem;
     padding: 3px 25px;
     border-radius: 6px;
+    color: #01A1E9;
+    background-color: white;
+}
+header nav a:hover {
+    background-color: #989898;
+    color: white;
+}
+header nav .btn_morado {
     color: #6E29A9;
     background-color: #F5F5F5;
 }
