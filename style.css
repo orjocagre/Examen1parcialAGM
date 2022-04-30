@@ -110,3 +110,22 @@ body {
     border-radius: 10px;
     border-style: none;
 }
+.patrocinadores {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.patrocinadores div {
+    width: 135px;
+    height: 6px;
+    background-color: #01A1E9;
+}
+.patrocinadores figure {
+    display: flex;
+    justify-content: center;
+}
+.patrocinadores figure img {
+    margin: 60px 30px 0 30px;
+}
+
