@@ -33,6 +33,7 @@ header {
     max-height: 100px;
     min-height: 40px;
     padding: 0 25px;
+    box-shadow: 2px 2px 5px #999;
 }
 header div {
     display: flex;

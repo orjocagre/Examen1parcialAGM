@@ -22,6 +22,7 @@ header {
     max-height: 100px;
     min-height: 40px;
     padding: 0 25px;
+    box-shadow: 2px 2px 5px #999;
 }
 header div {
     display: flex;
@@ -50,4 +51,77 @@ header nav a:hover {
 header nav .btn_morado {
     color: #6E29A9;
     background-color: #F5F5F5;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+
+}
+main h1 {
+    color: #8200FF;
+    font-weight: 900;
+    font-size: 6.4rem;
+}
+main h2 {
+    color: #1B314F;
+    font-weight: 900;
+    font-size: 3.2rem;
+    margin-top: 70px;
+
+}
+main button {
+    background-color: #6E29A9;
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px 100px;
+    margin-top: 25px;
+}
+main button:hover {
+    background-color: #49107a;
+}
+main input {
+    width: 460px;
+    height: 54px;
+    background-color: #595959;
+    border: 1px solid #000000;
+    border-radius: 9px;
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: center;
+}
+#salario {
+    color: black;
+    background-color: #F5F5F5;
+}
+main p {
+    color: #1B314F;
+    font-weight: 600;
+    font-size: 3.2rem;
+    margin-top: 30px;
+}
+footer {
+    background-color: #1B314F;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+footer p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+}
+footer div {
+    display: flex;
+    align-items: center;
 }
